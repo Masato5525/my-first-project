@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>イッシーの実験室</title>
+</head>
+  <body>
+   <h1>はじめてのVS Code</h1>
+   <p id="message">ここが変わります</p>
+
+   <button onclick="changeText()">押してみる</button>
+
+   <script>
+     function changeText() {
+       document.getElementById("message").textContent = "イッシーがボタンを押しました！";
+       alert("押しましたね？");
+     }
+   </script>
+  </body>
+</html>
